@@ -1,7 +1,7 @@
 # u8g2-Nokia_LCD_5110-LMG6401PLGE-testing
 try to uses u8g2 LCD library, some good some odd
 
-### [LMG6401PLGE](LMG6401PLGE), testing NG, did not know why
+### [LMG6401PLGE](LMG6401PLGE), HD61830, controller, testing NG, did not know why
 all files/modified and build.bat available
 
 HITACHI LCD LMG6401PLGE, 240x128
@@ -43,3 +43,6 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 
 ```
 
+
+
+### Nokia 5110 LCD, controller PCD8544
