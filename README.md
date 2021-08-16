@@ -45,6 +45,38 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 
 
 
-### Nokia 5110 LCD, controller PCD8544
+### Nokia 5110 LCD, controller PCD8544  
+testing ok, notes,  
+```
+//// xiaolaba, testing, 2021-AUG-10
+//// software SPI mode, any port pin is ok
+//// dc : Data/Command pin, or RS (Register Select) pin
+//// U8G2_Rx, LCD image orientations
+//U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 DisplayU8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 7, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R1, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
+U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R2, /* clock=*/ 7, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R3, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
+
+//// hardware SPI mode, CLK / DATA pin is specific for every MCU
+//U8G2_PCD8544_84X48_F_4W_HW_SPI u8g2(U8G2_R0,                                  /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);   // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_HW_SPI u8g2(U8G2_R1,                                  /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);   // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_HW_SPI u8g2(U8G2_R2,                                  /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);   // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_HW_SPI u8g2(U8G2_R3,                                  /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);   // Nokia 5110 Display
+
+// lcd2image produced image array
+// change 1st line to uses flash memory for ROM stroage, save RAM used
+// const unsigned char gImage_xiao3[528] = { /* 0X20,0X01,0X54,0X00,0X30,0X00, */
+// const unsigned char gImage_xiao3[528] PROGMEM = { /* 0X20,0X01,0X54,0X00,0X30,0X00, */
+#include "img\xiao1.h"
+#include "img\xiao2.h"
+#include "img\xiao3.h"
+#include "img\xiao4.h"
+```
 
 ![Mega2560_u8g2_LCD5110_HelloWorld/img/grey_only_2_lcd_ok.JPG](Mega2560_u8g2_LCD5110_HelloWorld/img/grey_only_2_lcd_ok.JPG)  
+
+complete project files,
+[Mega2560_u8g2_LCD5110_HelloWorld](Mega2560_u8g2_LCD5110_HelloWorld)
+
+demo video,
+[https://www.youtube.com/watch?v=h8Ii3jQoLog](https://www.youtube.com/watch?v=h8Ii3jQoLog)
