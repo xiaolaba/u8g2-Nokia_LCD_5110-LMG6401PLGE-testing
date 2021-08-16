@@ -49,7 +49,8 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 testing ok, notes,  
 
 wire connections  
-NOKIA 5110 LCD pin | Arduino pin  
+NOKIA 5110 LCD pin | Arduino pin
+```
 LED+, 1k resistor, connect to +3V3, or just no connectio then no backlight   
 CLK = 7; // Must connect to Arduino NANO D13 (SPI SCLK) when using SPI library  
 DN = 11; // Must connect to Arduino NANO D11 (SPI MOSI) when using SPI library  
@@ -58,13 +59,15 @@ RST = 9;  // reset
 SCE = 8;  // cs of u8g2, chip select    
 GND = GND;  // Ground
 VCC = +3V3; // power supply
+```
 
+setup in software,  
 ```
 //// xiaolaba, testing, 2021-AUG-10
 //// software SPI mode, any port pin is ok
 //// dc : Data/Command pin, or RS (Register Select) pin
 //// U8G2_Rx, LCD image orientations
-//U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 DisplayU8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 7, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
+//U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 DisplayU8G2_PCD8544_84X48_F_4W_SW_SPI //u8g2(U8G2_R0, /* clock=*/ 7, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
 //U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R1, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
 U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R2, /* clock=*/ 7, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
 //U8G2_PCD8544_84X48_F_4W_SW_SPI u8g2(U8G2_R3, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 8, /* dc=*/ 10, /* reset=*/ 9);  // Nokia 5110 Display
