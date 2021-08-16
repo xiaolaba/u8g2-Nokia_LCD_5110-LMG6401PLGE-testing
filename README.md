@@ -47,6 +47,18 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 
 ### Nokia 5110 LCD, controller PCD8544  
 testing ok, notes,  
+
+wire connections  
+NOKIA 5110 LCD pin | Arduino pin  
+LED+, 1k resistor, connect to +3V3, or just no connectio then no backlight   
+CLK = 7; // Must connect to Arduino NANO D13 (SPI SCLK) when using SPI library  
+DN = 11; // Must connect to Arduino NANO D11 (SPI MOSI) when using SPI library  
+DC = 10; // RS (register select)  
+RST = 9;  // reset  
+SCE = 8;  // cs of u8g2, chip select    
+GND = GND;  // Ground
+VCC = +3V3; // power supply
+
 ```
 //// xiaolaba, testing, 2021-AUG-10
 //// software SPI mode, any port pin is ok
