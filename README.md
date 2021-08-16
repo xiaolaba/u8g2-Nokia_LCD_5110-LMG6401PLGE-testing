@@ -95,3 +95,14 @@ complete project files,
 
 demo video,
 [https://www.youtube.com/watch?v=h8Ii3jQoLog](https://www.youtube.com/watch?v=h8Ii3jQoLog)
+
+
+
+### what is the next ??
+dithering and the mono image display with mon LCD
+why and how
+
+https://www.youtube.com/watch?v=0L2n8Tg2FwI
+https://forum.arduino.cc/t/grey-scale-images-on-monochrome-displays/517591
+https://github.com/bitbank2/image_to_c
+https://zhuanlan.zhihu.com/p/33637225 什么是抖色Dithering?——节选自《高兴说显示进阶篇之三》
