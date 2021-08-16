@@ -47,4 +47,4 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 
 ### Nokia 5110 LCD, controller PCD8544
 
-![Mega2560_u8g2_LCD5110_HelloWorld\img\grey_only_2_lcd_ok.JPG](Mega2560_u8g2_LCD5110_HelloWorld\img\grey_only_2_lcd_ok.JPG)  
+![Mega2560_u8g2_LCD5110_HelloWorld/img/grey_only_2_lcd_ok.JPG](Mega2560_u8g2_LCD5110_HelloWorld/img/grey_only_2_lcd_ok.JPG)  
