@@ -102,8 +102,13 @@ demo video,
 dithering and the mono image display with mon LCD
 why and how
 
-[https://www.youtube.com/watch?v=0L2n8Tg2FwI](https://www.youtube.com/watch?v=0L2n8Tg2FwI)    
+[https://www.youtube.com/watch?v=0L2n8Tg2FwI](https://www.youtube.com/watch?v=0L2n8Tg2FwI) my replication of the code used, see [processing_source_code](processing_source_code)     
 [https://forum.arduino.cc/t/grey-scale-images-on-monochrome-displays/517591](https://forum.arduino.cc/t/grey-scale-images-on-monochrome-displays/517591)  
 [https://github.com/bitbank2/image_to_c](https://github.com/bitbank2/image_to_c)  
 [https://zhuanlan.zhihu.com/p/33637225](https://zhuanlan.zhihu.com/p/33637225) [什么是抖色Dithering?——节选自《高兴说显示进阶篇之三》](什么是抖色Dithering——节选自《高兴说显示进阶篇之三》.pdf)  Spatial Dithering, Temporal Dithering 也叫Frame Rate Control（FRC）
-https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering
+https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering  
+
+
+demo video, workdone  
+抖音, 抖色, Floyd–Steinberg dithering, learning how to code, work done  
+https://youtu.be/NrdAuk-bxzk 
