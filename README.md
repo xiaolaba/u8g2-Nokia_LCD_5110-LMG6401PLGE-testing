@@ -101,8 +101,8 @@ demo video,
 
 
 ### what is the next ??
-dithering and the mono image display with mon LCD
-why and how
+dithering and the mono image display with mono LCD  
+why and how  
 
 [https://www.youtube.com/watch?v=0L2n8Tg2FwI](https://www.youtube.com/watch?v=0L2n8Tg2FwI) my replication of the code used, see [processing_source_code](processing_source_code)     
 [https://forum.arduino.cc/t/grey-scale-images-on-monochrome-displays/517591](https://forum.arduino.cc/t/grey-scale-images-on-monochrome-displays/517591)  
