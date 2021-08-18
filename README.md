@@ -109,6 +109,6 @@ why and how
 https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering  
 
 
-demo video, workdone  
+### here is the next, Floyd–Steinberg dithering, demo video, workdone  
 抖音, 抖色, Floyd–Steinberg dithering, learning how to code, work done  
 https://youtu.be/NrdAuk-bxzk 
