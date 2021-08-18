@@ -47,6 +47,8 @@ LC7942, y-driver x2, 64 row x2 = 128 pixel of height
 
 ### Nokia 5110 LCD, controller PCD8544  
 
+old project, no library used, [LCD5110_test](LCD5110_test), [readme](https://xiaolaba.wordpress.com/2019/02/07/arduino-lcd-5110-pcd-8544-test-ok/)    
+
 circuit diagram,  
 ![Mega2560_u8g2_LCD5110_HelloWorld/UNO_5110LCD_wires.jpg](Mega2560_u8g2_LCD5110_HelloWorld/UNO_5110LCD_wires.jpg)  
 
