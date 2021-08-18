@@ -119,3 +119,9 @@ https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering
 ### here is the next, Floyd–Steinberg dithering, demo video, workdone  
 抖音, 抖色, Floyd–Steinberg dithering, learning how to code, work done  
 https://youtu.be/NrdAuk-bxzk 
+
+
+### processing and bug
+smaller images are not so easy to see the bug, RGB images are also, these is example to find the bug as blanking area is the big enoguh, some dotted lines is coming up, but why and how to improve those? no idea.
+![processing_source_code/bug/bug.JPG](processing_source_code/bug/bug.JPG)  
+![processing_source_code/bug/bug1.JPG](processing_source_code/bug/bug1.JPG)  
