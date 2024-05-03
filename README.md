@@ -3,7 +3,7 @@ try to uses u8g2 LCD library, some good some odd
 
 ### [LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK](LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK)  
 no driver used, bingbang IO test ok,  
-[LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK/LM6401PLGE_testing_done_xiao.jpg}(LM6401PLGE_testing_done_xiao.jpg)
+[LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK/LM6401PLGE_testing_done_xiao.jpg](LM6401PLGE_testing_done_xiao.jpg)
 
 ### [LMG6401PLGE](LMG6401PLGE), HD61830, controller, dirver library testing NG, did not know why
 
