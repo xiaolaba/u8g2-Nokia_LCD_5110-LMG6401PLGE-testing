@@ -1,7 +1,9 @@
 # u8g2-Nokia_LCD_5110-LMG6401PLGE-testing
 try to uses u8g2 LCD library, some good some odd
 
-### [LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK](LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK)  
+[ display Text ]( file path )  
+
+### [LMG6401PLGE_HD61830B_TEST_OK](LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK)  
 no driver used, bingbang IO test ok,  
 ![LM6401PLGE_testing_done_xiao.jpg](LMG6401PLGE/LMG6401PLGE_HD61830B_TEST_OK/LM6401PLGE_testing_done_xiao.jpg)  
 
