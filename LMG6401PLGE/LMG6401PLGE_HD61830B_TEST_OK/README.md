@@ -5,6 +5,12 @@ by xiaoalab
 almost_44780_compatible.JPG  
 ![almost_44780_compatible.JPG](almost_44780_compatible.JPG)  
 ...  
+burn_arduino_com7_LM6401PLGE.bat  
+![burn_arduino_com7_LM6401PLGE.bat](burn_arduino_com7_LM6401PLGE.bat)  
+...  
+burn_arduino_com7_picoboot_bootloader.bat  
+![burn_arduino_com7_picoboot_bootloader.bat](burn_arduino_com7_picoboot_bootloader.bat)  
+...  
 github_build_README.md.bat  
 ![github_build_README.md.bat](github_build_README.md.bat)  
 ...  
@@ -26,8 +32,8 @@ LMG6401PLGE_HD61830B_TEST_OK.ino
 LMG6401PLGE_HD61830B_TEST_OK.m168.hex  
 ![LMG6401PLGE_HD61830B_TEST_OK.m168.hex](LMG6401PLGE_HD61830B_TEST_OK.m168.hex)  
 ...  
-LMG6401PLGE_HD61830B_TEST_OK.m168.pwith.bootloader.hex  
-![LMG6401PLGE_HD61830B_TEST_OK.m168.pwith.bootloader.hex](LMG6401PLGE_HD61830B_TEST_OK.m168.pwith.bootloader.hex)  
+LMG6401PLGE_HD61830B_TEST_OK.m168.picoboot_v3b2.bootloader_only.hex  
+![LMG6401PLGE_HD61830B_TEST_OK.m168.picoboot_v3b2.bootloader_only.hex](LMG6401PLGE_HD61830B_TEST_OK.m168.picoboot_v3b2.bootloader_only.hex)  
 ...  
 LMG6401PLGE_HD61830B_xiao_schematic.pdf  
 ![LMG6401PLGE_HD61830B_xiao_schematic.pdf](LMG6401PLGE_HD61830B_xiao_schematic.pdf)  
