@@ -41,8 +41,8 @@ LMG6401PLGE_HD61830B_xiao_schematic.pdf
 LMG6401PLGE_HD61830B_xiao_schematic_VEE_corrected_symbol.pdf  
 ![LMG6401PLGE_HD61830B_xiao_schematic_VEE_corrected_symbol.pdf](LMG6401PLGE_HD61830B_xiao_schematic_VEE_corrected_symbol.pdf)  
 ...  
-LMG6401PLGE_Hitachi_datasheet_wrong VEE_bat_symbol.pdf  
-![LMG6401PLGE_Hitachi_datasheet_wrong VEE_bat_symbol.pdf](LMG6401PLGE_Hitachi_datasheet_wrong VEE_bat_symbol.pdf)  
+LMG6401PLGE_Hitachi_datasheet_wrong_VEE_bat_symbol.pdf  
+![LMG6401PLGE_Hitachi_datasheet_wrong_VEE_bat_symbol.pdf](LMG6401PLGE_Hitachi_datasheet_wrong_VEE_bat_symbol.pdf)  
 ...  
 README.md  
 ![README.md](README.md)  
